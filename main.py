@@ -6,8 +6,8 @@ import wave
 import datetime
 from tqdm import tqdm
 
-CSV_FILE = 'tira-codeswitching.csv'
-CLIP_DIR = 'clips'
+CSV_FILE = 'data/tira-codeswitching.csv'
+CLIP_DIR = 'data/clips'
 
 def main() -> int:
     df = pd.read_csv(CSV_FILE, keep_default_na=False)
